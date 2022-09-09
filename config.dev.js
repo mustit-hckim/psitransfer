@@ -13,9 +13,10 @@ module.exports = {
   },
   "defaultRetention": "3600",
   "adminPass": "admin",
+  "loginAppPath": '/login',
   "uploadPass": false,
   "baseUrl": '/',
-  "uploadAppPath": '/',
+  "uploadAppPath": '/upload',
   // "maxFileSize": Math.pow(2, 20) * 15,
   // "maxBucketSize": Math.pow(2, 20) * 20,
   "mailFrom": "PsiTransfer <psitransfer@psi.cx>"

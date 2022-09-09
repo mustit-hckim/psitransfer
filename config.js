@@ -10,7 +10,7 @@ const config = {
   // set to serve PsiTransfer from a sub-path
   "baseUrl": '/',
   // use to set custom upload url (subfolder to baseUrl)
-  "uploadAppPath": '/',
+  "uploadAppPath": '/upload',
   "loginAppPath": '/login',
   "iface": '0.0.0.0',
   // set to false to disable HTTP
@@ -36,7 +36,7 @@ const config = {
     "4838400": "8 Weeks"
   },
   // admin password, set to false to disable /admin page
-  "adminPass": false,
+  "adminPass": true,
   // upload password, set to false to disable
   "uploadPass": false,
   // make the bucket-password field mandatory
